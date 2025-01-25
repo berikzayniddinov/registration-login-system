@@ -7,6 +7,7 @@ This project is a simple user registration and login system built using **Node.j
 ## **Features**
 - User registration with plain-text password storage.
 - User login with validation.
+- Main page with links to the registration and login pages.
 - Frontend pages for registration and login.
 
 ---
@@ -26,6 +27,7 @@ registration-login-system/
 ├── models/
 │   └── User.js           # MongoDB user schema
 ├── public/
+│   ├── index.html        # Main page
 │   ├── register.html     # Registration page
 │   ├── login.html        # Login page
 ├── routes/
@@ -68,6 +70,7 @@ npm start
 
 ### **5. Access the application:**
 - Open your browser and go to:
+  - `http://localhost:5000/` to access the main page.
   - `http://localhost:5000/register.html` to register a new user.
   - `http://localhost:5000/login.html` to log in.
 
@@ -75,13 +78,17 @@ npm start
 
 ## **Usage**
 
-### **1. Registration**
+### **1. Main Page**
+- Go to `http://localhost:5000/`.
+- The main page provides links to the registration and login pages.
+
+### **2. Registration**
 - Go to `http://localhost:5000/register.html`.
 - Enter a username and password.
 - Submit the form to create a new user.
 - User data will be stored in the `users` collection in MongoDB.
 
-### **2. Login**
+### **3. Login**
 - Go to `http://localhost:5000/login.html`.
 - Enter the username and password.
 - Submit the form to log in.
@@ -138,13 +145,17 @@ npm start
 ---
 
 ## **Screenshots**
+### Main Page:
+![image](https://github.com/user-attachments/assets/424890d1-c4ec-469d-aa58-6ce4d9906663)
+
+
 ### Registration Page:
-![Registration Page](![image](https://github.com/user-attachments/assets/68cc93a1-4250-4a1e-9fd6-2147e48c996a)
-)
+![image](https://github.com/user-attachments/assets/84a1b46e-148d-4abb-8c38-7ad53b59f4ed)
+
 
 ### Login Page:
-![Login Page](![image](https://github.com/user-attachments/assets/fbc09b59-6da0-4f46-ace2-0a59e767aa1e)
-)
+![image](https://github.com/user-attachments/assets/abdfb491-03e2-4a79-9a45-efe4061a715d)
+
 
 ---
 
